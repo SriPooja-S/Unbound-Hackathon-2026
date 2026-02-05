@@ -20,6 +20,7 @@ A visual tool for building and orchestrating multi-step AI workflows. Chain mult
   - *![Workflow Builder UI](./screenshots/i4.png)*
   - *![Workflow Builder UI](./screenshots/i5.png)*
   - *![Workflow Builder UI](./screenshots/ilast.png)*
+  - *![Workflow Builder UI](./screenshots/final.png)*
 
 ## Tech stack
 
