@@ -6,11 +6,11 @@ A visual tool for building and orchestrating multi-step AI workflows. Chain mult
 
 ##  Features
 
-- ** Context chaining** — Inject the output of previous steps into next-step prompts with the `{previous_context}` variable.
-- ** Real-time progress** — Live execution status, logs, and AI responses via WebSockets (Socket.IO).
-- ** Visual builder** — React UI to create, edit, and delete workflows.
+- **Context chaining** — Inject the output of previous steps into next-step prompts with the `{previous_context}` variable.
+- **Real-time progress** — Live execution status, logs, and AI responses via WebSockets (Socket.IO).
+- **Visual builder** — React UI to create, edit, and delete workflows.
 - **Auto-retry logic** — Retries failed API calls (configurable, default 3 attempts) with exponential backoff.
-- ** Persistence** — Workflows and execution history stored in SQLite.
+- **Persistence** — Workflows and execution history stored in SQLite.
 
 ##  Demo & Screenshots
 
