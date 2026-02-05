@@ -2,49 +2,6 @@
 
 **Unbound Hackathon 2026**
 
-A powerful, visual tool for building and orchestrating multi-step AI workflows. This application allows users to chain Large Language Models (LLMs) together, where the output of one "agent" becomes the context for the next, automating complex tasks like code generation, content creation, and analysis.
-
-##  Features
-
-*** Context Chaining:** Automatically injects the output of previous steps into the next step's prompt using the `{previous_context}` variable.
-*** Real-Time Progress:** Uses WebSockets (Socket.IO) to show live execution status, logs, and AI responses instantly.
-*** Visual Builder:** A clean, intuitive React interface to create, edit, and delete workflows.
-*** Auto-Retry Logic:** Robust error handling that automatically retries failed API calls (up to 3 times) before marking a step as failed.
-*** Persistence:** All workflows and execution history are saved to a SQLite database.
-
-##  Demo & Screenshots
-
-### Live Execution
-*(Insert your screenshot of the "Run Workflows" card showing the black terminal output)*
-
-### Workflow Builder
-*(Insert your screenshot of the "Build New Workflow" form)*
-
----
-
-##  Tech Stack
-
-* **Frontend:** React, Vite, Tailwind CSS
-* **Backend:** Python, FastAPI, SQLite (SQLModel)
-* **Real-time:** Socket.IO
-* **AI Integration:** Unbound API (Kimi-k2p5 models)
-
----
-
-##  Setup & Installation
-
-### Prerequisites
-* Node.js (v18 or higher)
-* Python (v3.10 or higher)
-
-### 1. Backend Setup (Server)
-Navigate to the server directory and set up the Python environment.
-
-```bash
-#  Agentic Workflow Builder
-
-**Unbound Hackathon 2026**
-
 A visual tool for building and orchestrating multi-step AI workflows. Chain multiple Large Language Models (LLMs) where the output of one "agent" becomes the input/context for the next. Use cases include code generation, content creation, analysis, and automation.
 
 ##  Features
