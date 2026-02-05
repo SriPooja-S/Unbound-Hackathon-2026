@@ -128,6 +128,6 @@ Example step object:
 ## Video walkthrough
 
 
-[Demo video link]
+[https://www.loom.com/share/2fc16562dc9f462081023a3b674f3599]
 
 ---
