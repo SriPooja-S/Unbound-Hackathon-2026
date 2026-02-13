@@ -125,9 +125,4 @@ Example step object:
 - Live progress tracking via Socket.IO instead of polling.
 - Error visibility: UI surfaces backend error traces (e.g., timeouts, rate limits) to aid debugging.
 
-## Video walkthrough
-
-
-[https://www.loom.com/share/2fc16562dc9f462081023a3b674f3599]
-
 ---
